@@ -1,10 +1,27 @@
-def CheckIfWeekend(int: day):
+def CheckIfWeekend(day):
     if day // 6 < 1:  
         return False
     else:
         return True
 
 
-day = int(input())
+day = 6
 
-CheckIfWeekend(day)
+if CheckIfWeekend(day):
+    print(day + " Yes")
+else:
+    print(day + " No")
+
+day = 7
+
+if CheckIfWeekend(day):
+    print(day + " Yes")
+else:
+    print(day + " No")
+
+day = 1
+
+if CheckIfWeekend(day):
+    print(day + " Yes")
+else:
+    print(day + " No")
