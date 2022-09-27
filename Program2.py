@@ -17,9 +17,3 @@ for x in Variables:
     for y in Variables:
       for z in Variables:
            print(int(x), '', int(y), '', int(z), '', int(FirstExpression(x, y, z)), '', int(SecondExpression(x, y, z)),'' , CheckIfBoolEquivalent(FirstExpression(x, y, z), SecondExpression(x, y, z)))
-
-#for x in Variables:
-#    if (x):
-#        print(f'int({x})')
-#    else:
-#        print()
