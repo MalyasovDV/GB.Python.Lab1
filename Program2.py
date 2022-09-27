@@ -12,7 +12,7 @@ def CheckIfBoolEquivalent(a, b):
 
 
 Variables = [False, True]
-print('x  y  z  FE SE')
+print('x  y  z  FE SE Check')
 for x in Variables:
     for y in Variables:
       for z in Variables:
